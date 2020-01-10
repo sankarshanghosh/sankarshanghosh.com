@@ -1,5 +1,9 @@
 /*global*/
 
+html{
+  scroll-behavior: smooth;
+}
+
 .container{
   width: 90%;
   margin:0 auto;
@@ -228,6 +232,7 @@ body{
   overflow: hidden;
   letter-spacing: 2px;
   animation: typing 4s steps(30, end), blink .75s step-end infinite;
+  animation-delay: 2s;
   white-space: nowrap;
   font-size: 50px;
   font-weight: 700;
@@ -424,6 +429,9 @@ body{
 
 @media (max-width:768px) {
 
+  .social{
+    padding-left: 100%;
+  }
   .works .welement{
 
     width: 40vw;
@@ -543,7 +551,7 @@ h3{
   font-family: "Nexa",sans-serif;
   font-weight: lighter;
   padding-top: 10px;
-  font-size: 25px;
+  font-size: 27px;
 }
 
 .email h3{
@@ -554,11 +562,10 @@ h3{
 
 
 .social{
-
+  padding-left: 10.5%;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   transition: opacity .5s;
   padding-bottom: 1em;
 }
