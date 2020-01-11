@@ -67,7 +67,7 @@ body{
 /*main class*/
 
 .flexbox{
- background-color: #121212;
+ background-color: #000;
  display: flex;
  justify-content: space-between;
  align-items: stretch;
@@ -602,7 +602,7 @@ font-size: 10px;
 }
 
 #footer {
-  background: #252525 no-repeat 100% 0;
+  background: #000000 no-repeat 100% 0;
   
   text-align: center;  
   color: #fff;
